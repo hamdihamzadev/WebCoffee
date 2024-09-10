@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+$font-familly:"Shantell Sans",
+cursive;
+$primary-color:#452720;
+$seconde-color:#B1895D;
+$third-color:#58362e;
+$white-color:white;
+$heigth-header:100px;
+
+a {
+    text-decoration: none;
+}
+
+
+// body
+body {
+    font-family: $font-familly;
+    line-height: 1.6;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+
+// header start
+#header {
+    background-color: $seconde-color;
+    min-height: $heigth-header;
+
+    #logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .active{
+        color: $primary-color;
+        font-weight: 600;
+    }
+}
+
+// slide start
+#slide {
+    background-color: $primary-color;
+    padding-top: $heigth-header;
+
+    #text-slide {
+        #subtitle {
+            color: $seconde-color;
+        }
+
+        #title {
+            color: $white-color;
+        }
+
+        #para {
+            color: $white-color;
+        }
+
+        #btn-action-slide {
+            background-color: $seconde-color;
+            color: $white-color;
+        }
+    }
+}
+
+// products start
+#products {
+    background-color: $primary-color;
+
+    #background-products {
+        background-color: $third-color;
+
+        #title {
+            background-color: $primary-color;
+            width: fit-content;
+        }
+        #section-products{
+            #img-product{
+                width: 75%;
+            }
+          }
+    }
+}
+
+
+// history
+#history {
+    background-color: $third-color;
+
+    #back-history {
+        background-color: $white-color;
+
+        #img-history {
+            width: 75%;
+        }
+    }
+}
+
+// steps
+#steps {
+    background-color: $white-color;
+
+    #back-steps {
+        background: $primary-color;
+
+        #height-row {
+            height: 400px;
+        }
+
+        #img-step {
+            background-color: $third-color;
+            height: 215px;
+            width: 215px;
+        }
+
+        #number-step {
+            background-color: $seconde-color;
+            height: 50px;
+            width: 50px;
+            border: 4px solid $primary-color;
+
+        }
+
+        #img-curve-line {
+
+            width: 56%;
+            bottom: 78px;
+
+        }
+
+
+    }
+
+
+}
+
+// Testimonial
+#testimonial {
+    background-color: #452720;
+
+    #back-testimonial {
+        background-color: $white-color;
+
+        #img-testimonial {
+            width: 75%;
+        }
+    }
+}
+
+// newsletter
+#newsletter {
+    background-color: $white-color;
+
+    #back-newsletter {
+        background-color: $primary-color;
+
+        #logo {
+            width: 40px;
+        }
+
+        #form {
+
+            #inputEamail,
+            #btn-subscribe {
+                height: 52px;
+            }
+
+            #inputEamail::placeholder {
+                color: $seconde-color;
+            }
+
+            #inputEamail {
+                background-color: transparent;
+                color: $seconde-color;
+                border-color: $seconde-color;
+            }
+
+            #btn-subscribe {
+                background-color: $seconde-color;
+            }
+
+        }
+    }
+}
+
+
+//  (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    #history {
+        #back-history {
+            #img-history {
+                width: 100%;
+            }
+        }
+
+    }
+
+    // Testimonial
+    #Testimonial {
+        #img-testimonial {
+            width: 100%;
+        }
+    }
+
+    // steps
+    #steps {
+        #back-steps {
+
+            #height-row {
+                height: fit-content;
+            }
+        }
+    }
+
+    // products start
+    #products {
+       
+        #background-products {
+          #section-products{
+            #img-product{
+                width: 100%;
+            }
+          }
+        }
+    }
+
+}
+
+//  (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    #history {
+        #back-history {
+            #img-history {
+                width: 75%;
+                text-align: center;
+            }
+        }
+
+    }
+
+    // Testimonial
+    #Testimonial {
+        #img-testimonial {
+            width: 75%;
+        }
+    }
+
+    // steps
+    #steps {
+        #back-steps {
+
+            #height-row {
+                height: fit-content;
+            }
+        }
+    }
+
+      // products start
+      #products {
+       
+        #background-products {
+          #section-products{
+            #img-product{
+                width: 75%;
+            }
+          }
+        }
+    }
+}
