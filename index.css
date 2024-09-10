@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Shantell Sans", cursive;
+  line-height: 1.6;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+#header {
+  background-color: #B1895D;
+  min-height: 100px;
+}
+#header #logo {
+  width: 60px;
+  height: 60px;
+}
+#header .active {
+  color: #452720;
+  font-weight: 600;
+}
+
+#slide {
+  background-color: #452720;
+  padding-top: 100px;
+}
+#slide #text-slide #subtitle {
+  color: #B1895D;
+}
+#slide #text-slide #title {
+  color: white;
+}
+#slide #text-slide #para {
+  color: white;
+}
+#slide #text-slide #btn-action-slide {
+  background-color: #B1895D;
+  color: white;
+}
+
+#products {
+  background-color: #452720;
+}
+#products #background-products {
+  background-color: #58362e;
+}
+#products #background-products #title {
+  background-color: #452720;
+  width: fit-content;
+}
+#products #background-products #section-products #img-product {
+  width: 75%;
+}
+
+#history {
+  background-color: #58362e;
+}
+#history #back-history {
+  background-color: white;
+}
+#history #back-history #img-history {
+  width: 75%;
+}
+
+#steps {
+  background-color: white;
+}
+#steps #back-steps {
+  background: #452720;
+}
+#steps #back-steps #height-row {
+  height: 400px;
+}
+#steps #back-steps #img-step {
+  background-color: #58362e;
+  height: 215px;
+  width: 215px;
+}
+#steps #back-steps #number-step {
+  background-color: #B1895D;
+  height: 50px;
+  width: 50px;
+  border: 4px solid #452720;
+}
+#steps #back-steps #img-curve-line {
+  width: 56%;
+  bottom: 78px;
+}
+
+#testimonial {
+  background-color: #452720;
+}
+#testimonial #back-testimonial {
+  background-color: white;
+}
+#testimonial #back-testimonial #img-testimonial {
+  width: 75%;
+}
+
+#newsletter {
+  background-color: white;
+}
+#newsletter #back-newsletter {
+  background-color: #452720;
+}
+#newsletter #back-newsletter #logo {
+  width: 40px;
+}
+#newsletter #back-newsletter #form #inputEamail,
+#newsletter #back-newsletter #form #btn-subscribe {
+  height: 52px;
+}
+#newsletter #back-newsletter #form #inputEamail::placeholder {
+  color: #B1895D;
+}
+#newsletter #back-newsletter #form #inputEamail {
+  background-color: transparent;
+  color: #B1895D;
+  border-color: #B1895D;
+}
+#newsletter #back-newsletter #form #btn-subscribe {
+  background-color: #B1895D;
+}
+
+@media (max-width: 767.98px) {
+  #header {
+    min-height: 40px;
+  }
+  #history #back-history #img-history {
+    width: 100%;
+  }
+  #Testimonial #img-testimonial {
+    width: 100%;
+  }
+  #steps #back-steps #height-row {
+    height: fit-content;
+  }
+  #products #background-products #section-products #img-product {
+    width: 100%;
+  }
+}
+@media (max-width: 991.98px) {
+  #history #back-history #img-history {
+    width: 75%;
+    text-align: center;
+  }
+  #Testimonial #img-testimonial {
+    width: 75%;
+  }
+  #steps #back-steps #height-row {
+    height: fit-content;
+  }
+  #products #background-products #section-products #img-product {
+    width: 75%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
