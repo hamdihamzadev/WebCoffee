@@ -193,6 +193,9 @@ body {
 
 //  (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
+    #header{
+        min-height: 60px;
+    }
     #history {
         #back-history {
             #img-history {
